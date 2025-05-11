@@ -1,0 +1,103 @@
+/* static/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    background-color: #c82333; /* Red theme */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #f8d7da !important; /* Light red on hover */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #dc3545; /* Red border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #dc3545; /* Red header */
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #c82333; /* Red button */
+    border-color: #c82333;
+}
+
+.btn-primary:hover {
+    background-color: #a71d2a; /* Darker red on hover */
+    border-color: #a71d2a;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #bd2130;
+    border-color: #bd2130;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.table {
+    border: 1px solid #dc3545;
+}
+
+.table thead {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.table tbody tr:hover {
+    background-color: #f8d7da; /* Light red on hover */
+}
+
+.form-control:focus {
+    border-color: #c82333;
+    box-shadow: 0 0 5px rgba(200, 35, 51, 0.5);
+}
+
+h1, h2, h3 {
+    color: #c82333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+}
